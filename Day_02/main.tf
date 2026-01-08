@@ -1,5 +1,5 @@
-resource "aws_instance" "my_first_instance" {
-  ami           = "ami-03265a0778a0e60c4"
+resource "aws_instance" "name" {
+  ami= "ami-0ecb62995f68bb549"
   instance_type = "t2.micro"
   tags ={
     Name = "Karan's Instance"
