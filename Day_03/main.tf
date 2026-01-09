@@ -7,3 +7,10 @@ resource "aws_instance" "name" {
   }
 
 } 
+
+resource "aws_s3_bucket" "dev-bucket" {
+  bucket = "sugsivskfhksfbskuvskdcfsgs"
+  tags = {
+    Name = "dev-bucket"
+  }
+}
