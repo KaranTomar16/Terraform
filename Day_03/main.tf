@@ -10,6 +10,6 @@ resource "aws_instance" "first_instance" {
 resource "aws_s3_bucket" "dev" {
   bucket = "sugsivskfhksfbskuvskdcfsgs"
   tags = {
-    Name = "dev"
+    Name = "test"
   }
 }
