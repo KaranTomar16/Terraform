@@ -43,4 +43,4 @@ output "test_bucket_arn" {
 }
 output "test_bucket_region" {
   value = aws_s3_bucket.test.region
-}
+}       
