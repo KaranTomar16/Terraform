@@ -13,3 +13,9 @@ resource "aws_s3_bucket" "test" {
     Name = "test"
   }
 }
+output "second_instance_public_ip" {
+  value = aws_instance.second_instance.public_ip
+}
+output "test_bucket_name" {
+  value = aws_s3_bucket.test.bucket
+}
