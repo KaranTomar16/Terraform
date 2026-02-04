@@ -19,3 +19,15 @@ output "second_instance_public_ip" {
 output "test_bucket_name" {
   value = aws_s3_bucket.test.bucket
 }
+output "test_bucket_arn" {
+  value = aws_s3_bucket.test.arn
+}
+output "test_bucket_region" {
+  value = aws_s3_bucket.test.region
+}
+output "test_bucket_size" {
+  value = aws_s3_bucket.test.size
+}
+output "test_bucket_tags" {
+  value = aws_s3_bucket.test.tags
+}
